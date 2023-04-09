@@ -21,7 +21,9 @@ _OBS: Como estou utilizando o Linux é necessário digitar **sudo** para executa
 - `sudo docker ps`: Lista todos os containers em execução
 - `sudo docker ps -a`: Com a flag **-a** irá listar todos os contêiners que foram executados
 - `sudo docker run <imagem>`: É o comando que inicializa um container, passando o nome da imagem que o container irá utilizar
+- `sudo docker inspect <nome-do-conteiner>`: Trazer de forma detalhada as informações do contêiner
 - `sudo docker stop <id-do-contêiner>`: Para um contêiner através do id
+- `sudo docker start <apelido-ou-id-do-conteiner-parado>`: Para retomar a execução`
 - `sudo docker run -it ubuntu`: Permite que seja executado comandos e interaja com o ambiente Ubuntu dentro do container em tempo real. Pode executar          comandos, instalar pacotes, criar arquivos, etc
 - `sudo docker run -dti --name Ubuntu-A ubuntu`: Permite execução e interação em segundo plano, além de criar um "apelido" para a imagem ubuntu chamada:      Ubuntu-A
 - `sudo docker exec -it <id-imagem-ubuntu> /bin/bash`: Executa o terminal do ubuntu
